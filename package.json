@@ -1,0 +1,24 @@
+{
+  "name": "api-school-alura",
+  "version": "1.0.0",
+  "description": "Api construída durante curso da escola Alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertosousa86/api-school-alura.git"
+  },
+  "keywords": [
+    "ALURA",
+    "NODE",
+    "API"
+  ],
+  "author": "Roberto Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robertosousa86/api-school-alura/issues"
+  },
+  "homepage": "https://github.com/Robertosousa86/api-school-alura#readme"
+}
