@@ -10,6 +10,20 @@ class PessoaController {
       return res.status(500).json(error.message);
     }
   }
+
+  static async getPessoasById(req, res) {
+    const { id } = req.params;
+
+    try {
+      const onePeople = await database.Pessoas.findOne({
+        where: { id: Number(id) },
+      });
+
+      return res.status(200).json(onePeople);
+    } catch (error) {
+      return res.status(500).json(error.message);
+    }
+  }
 }
 
 module.exports = PessoaController;
