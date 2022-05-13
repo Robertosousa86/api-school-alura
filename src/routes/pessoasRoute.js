@@ -8,4 +8,8 @@ router.get('/pessoas/:id', PessoaController.getPessoasById);
 
 router.post('/pessoas', PessoaController.createPessoa);
 
+router.put('/pessoas/:id', PessoaController.updatePessoa);
+
+router.delete('/pessoas/:id', PessoaController.deletePessoa);
+
 module.exports = router;
